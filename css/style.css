@@ -1,0 +1,48 @@
+.image1{
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)), url('../img/16.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+#home .container{
+    height: 50vh;
+}
+#approach .container{
+    height: 15vh;
+}
+#contact .container{
+    height: 50vh;
+}
+.generic{
+    padding: 50px 0;
+}
+.latest-item{
+    position: relative;
+}
+.latest-item i{
+    transition: all 0.5s;
+    opacity: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    transition: all 0.5s;
+    opacity: 0.5;
+    color: white;
+    background-color: rgba(226, 39, 39, 0.527);
+
+}
+.latest-item:hover .overlay{
+    background-color: rgba(224, 40, 40, 0.801);
+    opacity: 1;
+}
+.latest-item:hover i{
+    opacity: 1;
+}
+
